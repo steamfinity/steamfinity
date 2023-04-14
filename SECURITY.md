@@ -12,7 +12,7 @@ Please note that any vulnerabilities that are reported publicly on GitHub or els
 
 Thank you for helping to keep Steamfinity safe and secure.
 
-# Steamfinity App and Cloud Security Recommendations
+# Steamfinity Security Recommendations
 To ensure the security and reliability of your Steamfinity experience, we recommend that all users take the following steps:
 
 - Use a secure Steamfinity Cloud password, and do not share your password with anyone else.
