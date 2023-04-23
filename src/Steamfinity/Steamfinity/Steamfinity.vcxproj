@@ -124,6 +124,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClInclude Include="Constants.h" />
     <ClInclude Include="Models\RefreshTokenDetails.h">
       <DependentUpon>Models\RefreshTokenDetails.idl</DependentUpon>
       <SubType>Code</SubType>
