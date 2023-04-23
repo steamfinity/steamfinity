@@ -1,0 +1,15 @@
+import "Enums/SignUpResult.idl";
+
+namespace Steamfinity.Models
+{
+	[bindable]
+	[default_interface]
+	runtimeclass RefreshTokenDetails
+	{
+		[noexcept] RefreshTokenDetails(Steamfinity.Enums.SignUpResult signUpResult, String token, Windows.Foundation.DateTime expirationTime);
+
+		[noexcept] Steamfinity.Enums.SignUpResult SignUpResult{ get; };
+		[noexcept] String Token{ get; };
+		[noexcept] Windows.Foundation.DateTime ExpirationTime{ get; };
+	}
+}

@@ -12,6 +12,9 @@
     <Midl Include="Enums\SignUpResult.idl">
       <Filter>Enums</Filter>
     </Midl>
+    <Midl Include="Models\RefreshTokenDetails.idl">
+      <Filter>Models</Filter>
+    </Midl>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
@@ -66,6 +69,9 @@
     </Filter>
     <Filter Include="Enums">
       <UniqueIdentifier>{0f8b14dc-83cb-431b-82a2-aee1b6598083}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{6f08f2c8-4864-4cc1-9602-3cf6ba3585a4}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
