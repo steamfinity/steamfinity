@@ -1,0 +1,9 @@
+namespace Steamfinity.Services
+{
+	[bindable]
+	[default_interface]
+	runtimeclass SteamfinityCloud
+	{
+		SteamfinityCloud();
+	}
+}

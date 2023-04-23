@@ -6,6 +6,9 @@
   <ItemGroup>
     <Midl Include="App.idl" />
     <Midl Include="MainPage.idl" />
+    <Midl Include="Services\SteamfinityCloud.idl">
+      <Filter>Services</Filter>
+    </Midl>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
@@ -54,6 +57,9 @@
     </Filter>
     <Filter Include="Resources\en-US">
       <UniqueIdentifier>{d0d0468e-4788-4b96-add8-99a7b0c67e65}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Services">
+      <UniqueIdentifier>{8e6ca226-3be0-404f-a3f2-eb3a50759b7e}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>
