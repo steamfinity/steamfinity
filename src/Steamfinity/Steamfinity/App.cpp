@@ -4,6 +4,7 @@
 using namespace winrt;
 
 using namespace Windows::ApplicationModel::Activation;
+using namespace Windows::ApplicationModel::Core;
 using namespace Windows::UI::Xaml;
 using namespace Windows::UI::Xaml::Controls;
 using namespace Windows::UI::Xaml::Navigation;
@@ -48,6 +49,8 @@ namespace winrt::Steamfinity::implementation
 
 				currentWindow.Content(rootFrame);
 				currentWindow.Activate();
+
+				CoreApplication::EnablePrelaunch(true);
 			}
 		}
 		else
