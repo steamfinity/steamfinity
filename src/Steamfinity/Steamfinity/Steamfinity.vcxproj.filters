@@ -9,6 +9,9 @@
     <Midl Include="Services\SteamfinityCloud.idl">
       <Filter>Services</Filter>
     </Midl>
+    <Midl Include="Enums\SignUpResult.idl">
+      <Filter>Enums</Filter>
+    </Midl>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="pch.cpp" />
@@ -60,6 +63,9 @@
     </Filter>
     <Filter Include="Services">
       <UniqueIdentifier>{8e6ca226-3be0-404f-a3f2-eb3a50759b7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Enums">
+      <UniqueIdentifier>{0f8b14dc-83cb-431b-82a2-aee1b6598083}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
   <ItemGroup>

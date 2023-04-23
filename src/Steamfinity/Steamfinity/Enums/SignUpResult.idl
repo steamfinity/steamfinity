@@ -1,0 +1,10 @@
+namespace Steamfinity.Enums
+{
+	enum SignUpResult
+	{
+		Success,
+		DuplicateUserName,
+		InvalidUserName,
+		PasswordTooWeak
+	};
+}
