@@ -8,7 +8,7 @@
 
   <Identity
     Name="1ce5e34c-baf9-42ed-ab02-147d346de8cc"
-    Publisher="CN=kwiat"
+    Publisher="CN=Steamfinity, OU=Steamfinity, O=Steamfinity, L=Poznan, S=Wielkopolska, C=PL"
     Version="1.0.0.0" />
 
   <Properties>
