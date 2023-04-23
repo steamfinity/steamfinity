@@ -49,6 +49,12 @@
     <Filter Include="Pages">
       <UniqueIdentifier>{8af58ee3-e727-4d4e-a297-ae6fd67a0d1d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{20cf45ff-0090-4a53-9ed6-a409c9c67785}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Resources\en-US">
+      <UniqueIdentifier>{d0d0468e-4788-4b96-add8-99a7b0c67e65}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <None Include="PropertySheet.props" />
@@ -58,5 +64,10 @@
     <Page Include="MainPage.xaml">
       <Filter>Pages</Filter>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <PRIResource Include="Resources\en-US\Resources.resw">
+      <Filter>Resources\en-US</Filter>
+    </PRIResource>
   </ItemGroup>
 </Project>
