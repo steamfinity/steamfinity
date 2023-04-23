@@ -1,3 +1,5 @@
+import "Enums/SignUpResult.idl";
+
 namespace Steamfinity.Services
 {
 	[bindable]
@@ -5,5 +7,7 @@ namespace Steamfinity.Services
 	runtimeclass SteamfinityCloud
 	{
 		SteamfinityCloud();
+
+		Windows.Foundation.IAsyncOperation<Steamfinity.Enums.SignUpResult> SignUpAsync(String userName, String password);
 	}
 }

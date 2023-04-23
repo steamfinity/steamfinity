@@ -5,6 +5,8 @@ namespace winrt::Steamfinity::Services::implementation
 {
 	struct SteamfinityCloud : SteamfinityCloudT<SteamfinityCloud>
 	{
+		Windows::Foundation::IAsyncOperation<Steamfinity::Enums::SignUpResult> SignUpAsync(hstring const&, hstring const&) const;
+
 		private:
 		Windows::Web::Http::HttpClient m_httpClient;
 	};
