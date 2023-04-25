@@ -57,7 +57,7 @@
     <AppxPackageSigningEnabled>True</AppxPackageSigningEnabled>
     <NoWarn>$(NoWarn);NU1702</NoWarn>
     <EntryPointProjectUniqueName>..\Steamfinity\Steamfinity.vcxproj</EntryPointProjectUniqueName>
-    <PackageCertificateThumbprint>E296526C467068742D94488A6529C958F37C4A9A</PackageCertificateThumbprint>
+    <PackageCertificateThumbprint>5A797817509C3C41ECE53CD44168897102EA4EB8</PackageCertificateThumbprint>
   </PropertyGroup>
   <ItemGroup>
     <AppxManifest Include="Package.appxmanifest">
