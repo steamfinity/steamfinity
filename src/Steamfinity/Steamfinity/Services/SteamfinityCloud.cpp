@@ -19,7 +19,7 @@ namespace winrt::Steamfinity::Services::implementation
 		requestData.Insert(L"userName", JsonValue::CreateStringValue(userName));
 		requestData.Insert(L"password", JsonValue::CreateStringValue(password));
 
-		Uri const requestUri{ to_hstring(STEAMFINITY_API_BASE_URL) + L"Authentication/SignUp" };
+		Uri const requestUri{ to_hstring(STEAMFINITY_API_BASE_URL) + L"authentication/sign-up" };
 		HttpStringContent const requestContent{ requestData.Stringify() };
 
 		auto const& response = co_await m_httpClient.PostAsync(requestUri, requestContent);
